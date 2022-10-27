@@ -1,0 +1,75 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 9pt;
+    background: #115ff4;
+    color: white;
+    
+  }
+  
+  h1 {
+    font-size: 40pt;
+  }
+  
+  button {
+    padding: 10px 0px;
+    background-color: #8D2AB5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14pt;
+    letter-spacing: .6pt;
+    width: 140px;
+  }
+  
+  table {
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  
+  th {
+    width: 150px;
+    height: 100px;
+    padding: 6px 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: default;
+    letter-spacing: .3pt;
+    border-radius: 4px;
+  }
+  
+  td {
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 150px;
+    height: 100px;
+    padding: 6px 20px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: .4pt;
+  
+  }
+  
+  .answer {
+    background-color: #28a200;
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  i {
+    font-size: 2rem;
+    pointer-events: none;
+  }
+  
